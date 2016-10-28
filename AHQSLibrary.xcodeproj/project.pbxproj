@@ -308,6 +308,7 @@
 				53A271DA1DC34B2F00568E29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

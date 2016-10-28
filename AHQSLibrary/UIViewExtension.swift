@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView {
     
-    func setupConstraints(
+    public func setupConstraints(
         topAnchor: NSLayoutYAxisAnchor?, topConstant: CGFloat,
         leftAnchor: NSLayoutXAxisAnchor?, leftConstant: CGFloat,
         bottomAnchor: NSLayoutYAxisAnchor?, bottomConstant: CGFloat,
@@ -88,7 +88,7 @@ extension UIView {
         return constraints
     }
     
-    func setHeightRelativeTo(_ view: UIView, multiplier: CGFloat) -> NSLayoutConstraint {
+    public func setHeightRelativeTo(_ view: UIView, multiplier: CGFloat) -> NSLayoutConstraint {
         self.translatesAutoresizingMaskIntoConstraints = false
         
         let heightConstraint = self.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: multiplier)
@@ -97,7 +97,7 @@ extension UIView {
         return heightConstraint
     }
     
-    func setWidthRelativeTo(_ view: UIView, multiplier: CGFloat) -> NSLayoutConstraint {
+    public func setWidthRelativeTo(_ view: UIView, multiplier: CGFloat) -> NSLayoutConstraint {
         self.translatesAutoresizingMaskIntoConstraints = false
         
         let widthConstraint = self.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: multiplier)

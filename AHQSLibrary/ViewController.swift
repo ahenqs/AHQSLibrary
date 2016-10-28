@@ -34,6 +34,14 @@ class ViewController: UIViewController {
         
         _ = button.setHeightRelativeTo(view, multiplier: 0.1)
         
+        let label = UILabel(frame: .zero)
+        label.textColor = UIColor.white
+        label.font = UIFont(name: "HelveticaBold", size: 32.0)
+        label.text = "Welcome"
+        
+        view.addSubview(label)
+
+        
     }
 
     override func didReceiveMemoryWarning() {
