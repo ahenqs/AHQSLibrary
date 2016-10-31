@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'AHQSLibrary'
-s.version          = '0.1.0'
+s.version          = '0.1.1'
 s.summary          = 'Some useful helpers for iOS 9+ and Swift 3.0 .'
 
 s.description      = <<-DESC
