@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'AHQSLibrary'
-s.version          = '0.1.1'
+s.version          = '0.1.2'
 s.summary          = 'Some useful helpers for iOS 9+ and Swift 3.0 .'
 
 s.description      = <<-DESC
@@ -11,6 +11,14 @@ UIViewExtension
 An easy way to play with view constraints using anchors. For iOS 9+ and Swift 3.0 .
 With this extension all you need is to call on method for each element in your view.
 
+UIColorExtension
+
+An easy way to create a color.
+
+UIImageViewExtension
+
+An easy way to load images from an URL and cache them.
+
 DESC
 
 s.homepage         = 'https://github.com/ahenqs/AHQSLibrary'
@@ -19,6 +27,6 @@ s.author           = { 'André Henrique da Silva' => 'ahenqs@gmail.com' }
 s.source           = { :git => 'https://github.com/ahenqs/AHQSLibrary.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '9.0'
-s.source_files = 'AHQSLibrary/UIViewExtension.swift'
+s.source_files = 'AHQSLibrary/UIViewExtension.swift', 'AHQSLibrary/UIColorExtension.swift', 'AHQSLibrary/UIImageViewExtension.swift'
 
 end
